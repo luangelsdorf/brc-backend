@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "Post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo_post": {
+      "type": "string"
+    },
+    "texto_post": {
+      "type": "richtext"
+    },
+    "data": {
+      "type": "string"
+    }
+  }
+}
