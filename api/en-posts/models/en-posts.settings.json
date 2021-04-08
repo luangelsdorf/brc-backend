@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "en_posts",
   "info": {
-    "name": "Post",
+    "name": "EN_Post",
     "description": ""
   },
   "options": {

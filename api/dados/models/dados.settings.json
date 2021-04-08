@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "dados",
+  "info": {
+    "name": "Dados",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "fb_link": {
+      "type": "string",
+      "required": true
+    },
+    "insta_link": {
+      "type": "string",
+      "required": true
+    },
+    "linkedin_link": {
+      "type": "string",
+      "required": true
+    },
+    "pt_contatos": {
+      "type": "string",
+      "required": true
+    },
+    "en_contatos": {
+      "type": "string",
+      "required": true
+    },
+    "pt_local": {
+      "type": "string",
+      "required": true
+    },
+    "en_local": {
+      "type": "string",
+      "required": true
+    },
+    "pt_fone": {
+      "type": "string",
+      "required": true
+    },
+    "en_fone": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    }
+  }
+}

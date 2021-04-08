@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dados",
+      "handler": "dados.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dados",
+      "handler": "dados.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dados",
+      "handler": "dados.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

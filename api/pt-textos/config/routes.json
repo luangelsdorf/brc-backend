@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pt-textos",
+      "handler": "pt-textos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pt-textos",
+      "handler": "pt-textos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pt-textos",
+      "handler": "pt-textos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

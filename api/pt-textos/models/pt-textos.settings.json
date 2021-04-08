@@ -1,0 +1,254 @@
+{
+  "kind": "singleType",
+  "collectionName": "pt_textos",
+  "info": {
+    "name": "PT_Textos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nb_item_1": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "nb_item_2": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "nb_item_3": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "nb_item_4": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "nb_item_5": {
+      "type": "string",
+      "required": true
+    },
+    "nb_item_6": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "main_banner_text_1": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "main_banner_text_2": {
+      "type": "text",
+      "required": true
+    },
+    "qs_title_1": {
+      "type": "string",
+      "required": true
+    },
+    "qs_title_2": {
+      "type": "string",
+      "required": true
+    },
+    "qs_text_1": {
+      "type": "text",
+      "required": true
+    },
+    "qs_text_2": {
+      "type": "text",
+      "required": true
+    },
+    "qs_text_3": {
+      "type": "text",
+      "required": true
+    },
+    "ne_title_1": {
+      "type": "string",
+      "required": true
+    },
+    "ne_title_2": {
+      "type": "string",
+      "required": true
+    },
+    "ne_nome_1": {
+      "type": "string",
+      "required": true
+    },
+    "ne_nome_2": {
+      "type": "string",
+      "required": true
+    },
+    "ne_text_1": {
+      "type": "text",
+      "required": true
+    },
+    "ne_text_2": {
+      "type": "text",
+      "required": true
+    },
+    "parallax_text_1": {
+      "type": "string",
+      "required": true
+    },
+    "parallax_text_2": {
+      "type": "text",
+      "required": true
+    },
+    "areas_title_1": {
+      "type": "string",
+      "required": true
+    },
+    "areas_title_2": {
+      "type": "string",
+      "required": true
+    },
+    "areas_text_1": {
+      "type": "text",
+      "required": true
+    },
+    "areas_text_2": {
+      "type": "text",
+      "required": true
+    },
+    "contatos_title_1": {
+      "type": "string",
+      "required": true
+    },
+    "contatos_title_2": {
+      "type": "string",
+      "required": true
+    },
+    "contatos_text": {
+      "type": "text",
+      "required": true
+    },
+    "form_title": {
+      "type": "string",
+      "required": true
+    },
+    "campo_1": {
+      "type": "string",
+      "required": true
+    },
+    "campo_2": {
+      "type": "string",
+      "required": true
+    },
+    "campo_3": {
+      "type": "string",
+      "required": true
+    },
+    "campo_4": {
+      "type": "string",
+      "required": true
+    },
+    "footer_msg": {
+      "type": "text",
+      "required": true
+    },
+    "nl_title": {
+      "type": "string",
+      "required": true
+    },
+    "nl_text": {
+      "type": "text",
+      "required": true
+    },
+    "nl_campo": {
+      "type": "string",
+      "private": false,
+      "unique": false,
+      "required": true
+    },
+    "footer_text": {
+      "type": "string",
+      "required": true
+    },
+    "areas_banner_text_1": {
+      "type": "string",
+      "required": true
+    },
+    "areas_banner_text_2": {
+      "type": "text",
+      "required": true
+    },
+    "areas_msg": {
+      "type": "string",
+      "required": true
+    },
+    "blog_banner_text_1": {
+      "type": "string",
+      "required": true
+    },
+    "blog_banner_text_2": {
+      "type": "text",
+      "required": true
+    },
+    "recentes_title_1": {
+      "type": "string",
+      "required": true
+    },
+    "recentes_title_2": {
+      "type": "string",
+      "required": true
+    },
+    "local": {
+      "type": "text",
+      "required": true
+    },
+    "blog_title_1": {
+      "type": "string",
+      "required": true
+    },
+    "blog_title_2": {
+      "type": "string",
+      "required": true
+    },
+    "btn_fale": {
+      "type": "string",
+      "required": true
+    },
+    "btn_servicos": {
+      "type": "string",
+      "required": true
+    },
+    "btn_equipe": {
+      "type": "string",
+      "required": true
+    },
+    "btn_enviar": {
+      "type": "string",
+      "required": true
+    },
+    "btn_interesse": {
+      "type": "string",
+      "required": true
+    },
+    "btn_ver_todas": {
+      "type": "string",
+      "required": true
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "ler_mais": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
