@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/dados",
-      "handler": "dados.find",
+      "path": "/redes-sociais",
+      "handler": "redes-sociais.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/dados",
-      "handler": "dados.update",
+      "path": "/redes-sociais",
+      "handler": "redes-sociais.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/dados",
-      "handler": "dados.delete",
+      "path": "/redes-sociais",
+      "handler": "redes-sociais.delete",
       "config": {
         "policies": []
       }

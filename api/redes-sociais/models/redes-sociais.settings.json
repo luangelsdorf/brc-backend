@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "redes_sociais",
+  "info": {
+    "name": "Redes Sociais"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "facebook": {
+      "type": "string",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
+      "required": true
+    },
+    "instagram": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
