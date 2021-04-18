@@ -36,7 +36,7 @@
       "required": true
     },
     "main_banner_text_1": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "main_banner_text_2": {
@@ -48,7 +48,7 @@
       "required": true
     },
     "qs_title_2": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "qs_text_1": {
@@ -240,6 +240,10 @@
       "required": true
     },
     "email": {
+      "type": "string",
+      "required": true
+    },
+    "ne_saiba_mais": {
       "type": "string",
       "required": true
     }

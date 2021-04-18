@@ -41,7 +41,7 @@
       "required": true
     },
     "main_banner_text_1": {
-      "type": "string",
+      "type": "text",
       "unique": false,
       "required": true
     },
@@ -54,7 +54,7 @@
       "required": true
     },
     "qs_title_2": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "qs_text_1": {
@@ -249,6 +249,10 @@
     },
     "email": {
       "type": "string"
+    },
+    "ne_saiba_mais": {
+      "type": "string",
+      "required": true
     }
   }
 }
